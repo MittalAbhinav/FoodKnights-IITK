@@ -15,7 +15,7 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
-
+        <link rel="stylesheet" href="styles.css"/>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -28,7 +28,15 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Your Orders</a></li>
+                  
+                        <li class="temp" >
+                        
+                            <input id="temp1" type="search" placeholder="Search your Favourite Restaurant" autofocus required/>
+                            <button id="temp2" type="submit">Go</button>
+                        </li>
+
+
+
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">Contact</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">BY IITK STUDENTS</a></li>
                     </ul>
